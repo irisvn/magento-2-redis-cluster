@@ -2,6 +2,12 @@ This custom module allows Magento 2 to use Redis Cluster with `nrk/predis` and t
 
 The class is an almost exact copy of the Predis Session Handler class adapted to Magento 2, with the deployment configuration as dependency and several small refactors to support a better naming key strategy.
 
+# Configuration
+
+1. Enable the module: `magento module:enable Emasantos_RedisCluster`
+
+2. Edit your `env.php` file and add your Redis Cluster connection configuration: 
+
 ```php
 'session' => [
         'save' => 'redisCluster',
