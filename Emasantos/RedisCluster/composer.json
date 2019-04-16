@@ -1,0 +1,29 @@
+{
+    "name": "Emasantos\/RedisCluster",
+    "description": "",
+    "require": {
+        "php": "~7.2.0",
+        "predis/predis": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Emasantos\\RedisCluster\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Emasantos\/RedisCluster"
+            ]
+        ]
+    }
+}

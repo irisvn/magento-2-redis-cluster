@@ -1,0 +1,10 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/module.xsd">
+    <type name="Magento\Framework\Session\SaveHandlerFactory">
+        <arguments>
+            <argument name="handlers" xsi:type="array">
+                <item name="redisCluster" xsi:type="string">Emasantos\RedisCluster\Session\RedisClusterSessionHandler</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
