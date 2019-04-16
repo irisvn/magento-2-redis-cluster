@@ -6,9 +6,9 @@ The class is an almost exact copy of the Predis Session Handler class adapted to
 
 1. Enable the module:
 
-   a. `magento module:enable Emasantos_RedisCluster`
-   b. `magento setup:upgrade`
-   c. `magento cache:flush`
+   . `magento module:enable Emasantos_RedisCluster`
+   . `magento setup:upgrade`
+   . `magento cache:flush`
 
 2. Edit your `env.php` file and add your Redis Cluster connection configuration: 
 
