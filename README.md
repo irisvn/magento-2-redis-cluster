@@ -23,3 +23,5 @@ The class is an almost exact copy of the Predis Session Handler class adapted to
         ]
     ],
 ```
+
+If you find something wrong feel free to DM me or just create a PR.
